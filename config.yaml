@@ -1,0 +1,72 @@
+# port for real-time output
+output: 
+    port: /dev/ttyATLAS
+    baudrate: 115200
+
+# sync node configuration
+sync:
+    euid: 0xdeca030000000001
+    interval: 0x17CDC00
+    position: [-1.05, 0.77, 1.96]
+    port: /dev/ttySYNC1
+    baudrate: 115200
+
+# calibration node configuration
+calibration:
+    euid: 0xdeca010000000007
+    position: [0.0, 0.0, 0.25]
+    window: 200
+
+# anchor configuration
+anchors:
+    -   euid: 0xdeca020000000001
+        port: /dev/ttyANCHOR1
+        position: [-1.05, -0.075, 2.075]
+    -   euid: 0xdeca020000000002
+        port: /dev/ttyANCHOR2
+        position: [-1.175, -3.49, 0.29]
+    -   euid: 0xdeca020000000003
+        port: /dev/ttyANCHOR3
+        position: [1.2, -3.49, 2.43]
+    -   euid: 0xdeca020000000004
+        port: /dev/ttyANCHOR4
+        position: [3.54, -3.45, 2.555]
+    -   euid: 0xdeca020000000005
+        port: /dev/ttyANCHOR5
+        position: [3.54, 0.02, 2.08]
+    -   euid: 0xdeca020000000006
+        port: /dev/ttyANCHOR6
+        position: [3.42, 3.52, 0.28]
+    -   euid: 0xdeca020000000007
+        port: /dev/ttyANCHOR7
+        position: [1.2, 3.49, 2.16]
+    -   euid: 0xdeca020000000008
+        port: /dev/ttyANCHOR8
+        position: [-1.17, 3.49, 2.17]
+
+# whitelist for accepted tag euis
+whitelist:
+    -   0xdeca010000000001
+    -   0xdeca010000000002
+    -   0xdeca010000000003
+    -   0xdeca010000000004
+    -   0xdeca010000000005
+    -   0xdeca010000000006
+    -   0xdeca010000000007
+    -   0xdeca010000000008
+
+# extended kalman filter configuration
+ekf:
+    processNoise: 0.05
+    measurementVariance: 0.1
+    initialInterval: 0.1
+    initialVariance: 100
+    initialVarianceDelta: 100
+    initialState: [0.5,0.5,0.5,0,0,0]
+
+# local reference frame for coordinate conversion
+# wgs84ref: point in the center of the local coordinate system
+# wgs84axis: point along the x-axis of the local coordinate system
+lrf:
+    wgs84ref: [51.49146951, 7.4122313, 0]
+    wgs84axis: [51.49130178, 7.41264889, 0]

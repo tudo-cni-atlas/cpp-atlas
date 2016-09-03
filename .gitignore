@@ -1,0 +1,11 @@
+atlas
+nodeconf
+*CMakeFiles*
+*.cmake
+*.make
+*CMakeCache.txt
+*.bin
+*.out
+*.a
+*Makefile*
+log/*
