@@ -1,7 +1,25 @@
 cpp-atlas
 ================
 
+** This code is deprecated **
+
 This is the C++11 code for the ATLAS Localization Server.
+
+
+### Publications
+
+If you use this work in an academic context, please cite the following publication(s):
+
+* J. Tiemann, F. Eckermann, C. Wietfeld, **ATLAS - An Open-Source TDOA-based Ultra-Wideband Localization System**, In 2016 International Conference on Indoor Positioning and Indoor Navigation (IPIN), Alcalá de Henares, Madrid, Spain, October 2016. ([PDF](https://doi.org/10.1109/IPIN.2016.7743707))
+
+        @inproceedings{Tiemann2016,
+            author = {J. Tiemann and F. Eckermann and C. Wietfeld},
+            booktitle = {2016 International Conference on Indoor Positioning and Indoor Navigation (IPIN)},
+            title = {{ATLAS - An Open-Source TDOA-based Ultra-Wideband Localization System}},
+            publisher = {IEEE},
+            year = {2016}
+        }
+
 
 ## Dependencies
 
