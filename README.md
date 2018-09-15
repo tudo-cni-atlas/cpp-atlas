@@ -1,13 +1,13 @@
 cpp-atlas
 ================
 
-** This code is deprecated **
+**This code is deprecated**
 
 This is the C++11 code for the ATLAS Localization Server.
 
-![DOI](https://zenodo.org/badge/20743/tudo-cni-atlas/cpp-atlas.svg)](https://zenodo.org/badge/latestdoi/20743/tudo-cni-atlas/cpp-atlas)
+[![DOI](https://zenodo.org/badge/20743/tudo-cni-atlas/cpp-atlas.svg)](https://zenodo.org/badge/latestdoi/20743/tudo-cni-atlas/cpp-atlas)
 
-### Publications
+## Publications
 
 If you use this work in an academic context, please cite the following publication(s):
 
