@@ -5,6 +5,7 @@ cpp-atlas
 
 This is the C++11 code for the ATLAS Localization Server.
 
+![DOI](https://zenodo.org/badge/20743/tudo-cni-atlas/cpp-atlas.svg)](https://zenodo.org/badge/latestdoi/20743/tudo-cni-atlas/cpp-atlas)
 
 ### Publications
 
